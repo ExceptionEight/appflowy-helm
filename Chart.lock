@@ -1,0 +1,24 @@
+dependencies:
+- name: valkey
+  repository: https://valkey.io/valkey-helm/
+  version: 0.9.3
+- name: appflowy-cloud
+  repository: ""
+  version: 0.1.0
+- name: appflowy-gotrue
+  repository: ""
+  version: 0.1.0
+- name: appflowy-admin
+  repository: ""
+  version: 0.1.0
+- name: appflowy-worker
+  repository: ""
+  version: 0.1.0
+- name: appflowy-web
+  repository: ""
+  version: 0.1.0
+- name: appflowy-ai
+  repository: ""
+  version: 0.1.0
+digest: sha256:df2977b490ec863aab36b49c78a26d3ecc540809d709f404005b67e23ee0671f
+generated: "2026-03-01T16:34:05.483781955+03:00"
