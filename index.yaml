@@ -1,0 +1,42 @@
+apiVersion: v1
+entries:
+  appflowy:
+  - apiVersion: v2
+    created: "2026-03-01T14:18:43.725670447Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: https://valkey.io/valkey-helm/
+      version: 0.9.3
+    - condition: appflowy-cloud.enabled
+      name: appflowy-cloud
+      repository: ""
+      version: 0.1.0
+    - condition: appflowy-gotrue.enabled
+      name: appflowy-gotrue
+      repository: ""
+      version: 0.1.0
+    - condition: appflowy-admin.enabled
+      name: appflowy-admin
+      repository: ""
+      version: 0.1.0
+    - condition: appflowy-worker.enabled
+      name: appflowy-worker
+      repository: ""
+      version: 0.1.0
+    - condition: appflowy-web.enabled
+      name: appflowy-web
+      repository: ""
+      version: 0.1.0
+    - condition: global.ai.enabled
+      name: appflowy-ai
+      repository: ""
+      version: 0.1.0
+    description: AppFlowy Cloud Helm Chart
+    digest: 001a533010f07f1e9b4fa178b5548c664658b8ca10c0655c6b9305086027ed10
+    name: appflowy
+    type: application
+    urls:
+    - https://exceptioneight.github.io/appflowy-helm/appflowy-0.0.1.tgz
+    version: 0.0.1
+generated: "2026-03-01T14:18:43.719925364Z"
